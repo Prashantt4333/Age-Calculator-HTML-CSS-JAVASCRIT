@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    background: #eee;
+    min-height: 300px;
+    width: 90%;
+    margin: 100px auto;
+    height: auto;
+}
+.base{
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.base h4{
+    font-size: 2em;
+    box-shadow:0px 2px #bababa;
+    font-family: 'Rubik Spray Paint', cursive;
+    color: #0a4631;
+    
+}
+
+
+
+.title{
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    color:#067d4d;
+    
+    
+}
+
+input[type=text]{
+    border: 2px solid #067d4d;
+    color: #067d4d;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+input[type=text]:focus{
+    background: #fff;
+    border: 2px solid #794b9a;
+}
+input[type=button]{
+    width: 70%;
+    margin: 20px;
+    margin-left: 10%;
+    border: none;
+    background:#067d4d ;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+input[type=button]:hover{
+    background:#053220 ;
+}
+.age{
+    display: block;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 23px;
+    line-height: 1.5;
+    color:#067d4d ;
+    padding: 10px;
+}
+#age{
+    font-family: 'Rubik Spray Paint', cursive;
+    color: #0a4631;
+    text-shadow: 2px 2px rgba(1 , 1, 1, 0.5) ;
+}
